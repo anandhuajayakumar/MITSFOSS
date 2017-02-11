@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MITSFOSS</title>
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/lib/fontello.css" />
+		<link rel="stylesheet" href="css/lib/normalize.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/materialize.min.css" />
+		<link rel="stylesheet" href="css/sidebar.css" />
+		<link rel="shortcut icon" href="img/mitsfoss_logo.png" />
+		<!--[if lt IE 9]>
+			<script src="js/lib/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body class="grey lighten-4">
+		<div class="wrapper jsc-sidebar-content jsc-sidebar-pulled white">
+			<nav class="grey lighten-3 z-depth-0">
+				<b class="right red-text mover">MITS<span class="black-text">FOSS</span></b>
+				<a href="#" class="link-menu jsc-sidebar-trigger"><i class="material-icons black-text movel">menu</i></a>
+			</nav>
+			<div class="row">
+				<section class="card center col l8 m12 s12" style="margin-left:16.66%">
+					<span class="headline-main black-text">
+						<b>
+							<h3 class="hide-on-small-only">The <font class="red-text">MITS</font>FOSS Club</h3>
+							<h2 class="hide-on-med-and-up">The <font class="red-text">MITS</font>FOSS Club</h2>
+						</b>
+					</span>
+					<p class="black-text" style="padding-left:5%;padding-right:5%;">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The main objective of the club is to adopt and promote the Free and Open Source Software in MITS Campus. MITSFOSS aims to create awareness on FOSS and to  promote its usage among the student community, teaching and non-teaching staffs and the public. Apart from the advocacy programme, the club is also concentrates on consultancy, training and development of Open Source softwares.
+						<br />
+					</p>
+				</section>
+				<section class="card center col l8 m12 s12" style="margin-left:16.66%">
+					<span class="headline-main black-text">
+						<b>
+							<h3 class="hide-on-small-only">Organisational Structure of <font class="red-text">MITS</font>FOSS</h3>
+							<h2 class="hide-on-med-and-up">Organisational Structure of <font class="red-text">MITS</font>FOSS</h2>
+						</b>
+					</span>
+						<ul class="collection left col l12 m12 s12 black-text">
+							<li class="collection-item">Patron: Executive Director | MITS</li>
+							<li class="collection-item">Advisors: Principal | MITS</li>
+							<li class="collection-item">Chair: HOD CSE</li>
+							<li class="collection-item">Staff-in-charge: Staff Representative</li>
+							<li class="collection-item">FOSS Secretary: Student Representative from Final Year CSE</li>
+							<li class="collection-item">FOSS Joint Secretary: Student Representative</li>
+							<li class="collection-item">Two Student Representatives from each CSE class</li>
+						</ul>
+				</section>
+			</div>
+			<br />
+			<div class="copyright black row center">
+					<code class="white-text"><br />&lt;designed by <font class="red-text">MITS</font>FOSS Team&gt;<br /><br /></code>
+			</div>
+		</div>
+		<nav class="jsc-sidebar blue-grey row" id="jsi-nav" data-sidebar-options="">
+			<ul class="sidebar-list col l12">
+			<b>
+				<div height="5%">&nbsp;</div>
+				<li class="col l12 z-depth-1 white black-text center"><span class="red-text">MITS</span>FOSS</li><br />
+				<li class="white black-text col l12 z-depth-1"><a href="index.html" class="current black-text">Home</a></li><br />
+				<li class="green accent-4 black-text col l12 z-depth-1"><a href="about.html" class="black-text col l12">About MITSFOSS</a></li><br />
+				<li class="white black-text col l12 z-depth-1"><a href="activities.html" class="black-text col l12">Activities</a></li><br />
+				<li class="white black-text col l12 z-depth-1"><a href="contact.html" class="black-text col l12">Contact Us</a></li>
+			</b>
+			</ul>
+		</nav>
+		
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="js/sidebar.js"></script>
+		<script>
+			$('#jsi-nav').sidebar({
+				trigger: '.jsc-sidebar-trigger',
+				pullCb: function () { console.log('pull'); },
+				pushCb: function () { console.log('push'); }
+			});
+		</script>
+	</body>
+</html>
